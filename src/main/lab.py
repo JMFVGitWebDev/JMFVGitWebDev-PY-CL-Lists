@@ -12,7 +12,7 @@ def create_list(n):
     """
     if n <= 0:
         raise ValueError("Number of elements must be positive")
-    return 0
+    return list(range(1, n+1))
 
 
 def access_list_element(my_list, index):
