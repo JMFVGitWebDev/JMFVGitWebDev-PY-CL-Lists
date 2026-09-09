@@ -38,9 +38,9 @@ def reverse_list(my_list):
     :param my_list: The list to reverse.
     :return: The reversed list.
     """
-    reversed_list = my_list.reverse()
+    
 
-    return reversed_list
+    return my_list[::-1]
 
 
 def combine_lists(list1, list2):
